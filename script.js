@@ -76,5 +76,5 @@ const t = setTimeout(fadeButtons, 2500);
 const slide = parseInt(localStorage.getItem("slide"));
 const localChapter = parseInt(localStorage.getItem("chapter"));
 if (localChapter) { moveChapter(localChapter) };
-if (slide) { moveSlide(slide) }
+if (slide) { moveSlide(slide) } 
 else { moveSlide(0) }
